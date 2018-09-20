@@ -5,7 +5,7 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import Container from "./Container";
 import Row from "./Row";
-import Column from "./Column";
+//import Column from "./Column";
 import friends from "./friends.json";
 import "./App.css";
 
@@ -28,6 +28,7 @@ class App extends Component {
   };
 
   handleClick = id => {
+    //event.preventDefault();
     if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
       this.setState({ clicked: this.state.clicked.concat(id) });
@@ -37,6 +38,7 @@ class App extends Component {
   };
 
   handleIncrement = () => {
+    //event.preventDefault();
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
@@ -45,22 +47,24 @@ class App extends Component {
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
     } 
-     if (newScore === 5) {
+     if (newScore === 10) {
      this.winnerReset();
     };
     this.initiateShuffle();
   };
 
   winnerReset = () => {
+    //event.preventDefault();
     this.setState({
       currentScore: 0,
-      rightWrong: "Winner",
+      rightWrong: "Winner!",
       clicked: []
     });
     this.initiateShuffle();
   };
 
   initiateReset = () => {
+    //event.preventDefault();
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
@@ -87,7 +91,7 @@ class App extends Component {
         />
 
         <Title>
-          Try to click on each character, but don't hit any duplicates, or we'll
+          Try to click on each character without hitting any duplicates, or we'll
          kill Kenny!!!
         </Title>
 
