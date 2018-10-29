@@ -1,7 +1,7 @@
  https://trie0037.github.io/ReactCLICKY/
  
- ![southpark](https://user-images.githubusercontent.com/38965016/45904931-3245d380-bdb4-11e8-8c63-42732d27a1a6.png)
- 
+ ![image](https://user-images.githubusercontent.com/38965016/47685701-67a8c280-dba5-11e8-959f-5349ac97bfc1.png)
+
  
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
