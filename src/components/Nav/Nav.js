@@ -1,16 +1,14 @@
 import React from "react";
-import "./Nav.css";
+import "../../index.css";
 
 const Nav = props => (
   <nav>
     <ul>
       <li className="brand animated lightSpeedIn">
-        <a href="https://trie0037.github.io/ReactCLICKY/">{props.title}</a>
+        <a href="/">{props.title}</a>
       </li>
 
       <li id="rw">{props.rightWrong}</li>
-
-      
 
       <li id="cur-sco">Current Score: {props.score}</li>
 

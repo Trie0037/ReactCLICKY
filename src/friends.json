@@ -1,55 +1,52 @@
 [
-    {
-      "id": 1,
-      "image": "assets/images/Bebe.jpg",
-      "clicked": false
-    },
-    {
-      "id": 2,
-      "image": "assets/images/Cartman.jpg",
-      "clicked": false
-    },
-    {
-      "id": 3,
-      "image": "assets/images/Chef.jpg",
-      "clicked": false
-    },
-    {
-      "id": 4,
-      "image": "assets/images/Kenny.jpg",
-      "clicked": false
-    },
-    {
-      "id": 5,
-      "image": "assets/images/Liane.jpg",
-      "clicked": false
-    },
-    {
-      "id": 6,
-      "image": "assets/images/MrS.jpg",
-      "clicked": false
-    },
-    {
-      "id": 7,
-      "image": "assets/images/Kyle.jpg",
-      "clicked": false
-    },
-    {
-      "id": 8,
-      "image": "assets/images/Sharon.jpg",
-      "clicked": false
-    },
-    {
-      "id": 9,
-      "image": "assets/images/Sheila.jpg",
-      "clicked": false
-    },
-    {
-      "id": 10,
-      "image": "assets/images/Stan.jpg",
-      "clicked": false
-    }
-    
-  ]
-  
-  
+  {
+    "id": 1,
+    "image": "assets/images/Bebe.jpg",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "assets/images/Cartman.jpg",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "assets/images/Chef.jpg",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "assets/images/Kenny.jpg",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "image": "assets/images/Liane.jpg",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "image": "assets/images/MrS.jpg",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "image": "assets/images/Kyle.jpg",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "image": "assets/images/Sharon.jpg",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "assets/images/Sheila.jpg",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "image": "assets/images/Stan.jpg",
+    "clicked": false
+  }
+]
